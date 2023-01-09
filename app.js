@@ -1,6 +1,6 @@
 const http = require('http');
 
-const port = 'https://api.render.com/deploy/srv-cet5b902i3mj6ph3icj0?key=Xe_mHWJCg8k';
+const port = 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
@@ -9,5 +9,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, () => {
-  console.log(`Server running at https://api.render.com/deploy/srv-cet5b902i3mj6ph3icj0?key=Xe_mHWJCg8k`);
+  console.log(`Server running at http://${hostname}:${port}/`);
 });
