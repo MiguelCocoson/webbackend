@@ -1,20 +1,16 @@
 {
-  "name": "webbackend",
+  "name": "deploy-to-render",
   "version": "1.0.0",
-  "description": "Name of person that I know.",
   "main": "app.js",
+  "license": "MIT",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node src/index.js",
+    "build": "echo 'Bulding.... (not actually doing something, but usually I would)'"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MiguelCocoson/webbackend.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MiguelCocoson/webbackend/issues"
-  },
-  "homepage": "https://github.com/MiguelCocoson/webbackend#readme"
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
