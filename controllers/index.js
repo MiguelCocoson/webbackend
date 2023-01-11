@@ -1,5 +1,7 @@
 displayName = (req, res, next) => {
-  res.json('Dianery Mejia');
+    const data =
+      'Dianery Marin';
+    res.status(200).send(data);
   };
   
   module.exports = {
