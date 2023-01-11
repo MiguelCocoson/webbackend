@@ -1,26 +1,26 @@
 {
-  "name": "cse341",
+  "name": "webbackend",
   "version": "1.0.0",
-  "description": "Lesson 01",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MiguelCocoson/webbackend.git"
   },
-  "author": "Nathan Birch",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MiguelCocoson/webbackend/issues"
   },
   "homepage": "https://github.com/MiguelCocoson/webbackend#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.18.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.20"
   }
 }

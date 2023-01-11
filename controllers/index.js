@@ -1,9 +1,7 @@
-displayJoke = (req, res) => {
-    const data =
-      'How did the telephone propose to his girlfriend? ...he gave her a ring.';
-    res.status(200).send(data);
+displayName = (req, res, next) => {
+  res.json('Dianery Mejia');
   };
   
   module.exports = {
-    displayJoke,
+    displayName
   };

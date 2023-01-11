@@ -1,7 +1,7 @@
 
 const routes = require('express').Router();
-const jokes = require('../controllers/');
+const name = require('../controllers/');
 
-routes.get('/', jokes.displayJoke);
+routes.get('/', name.displayName);
 
 module.exports = routes;
