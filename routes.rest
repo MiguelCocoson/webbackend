@@ -1,0 +1,28 @@
+GET http://localhost:8080/contacts
+
+### Create contact
+
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Josue",
+    "lastName": "Marin",
+    "email": "josuemarin@gmail.com",
+    "favoriteColor": "blue",
+    "birthday": "07/06/2002"
+}
+
+### PUT contact
+
+PUT http://localhost:8080/contacts/63bf636b644c41ff91a7ab78 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Dianery",
+    "lastName": "Mejia",
+    "email": "dianerymarin@gmail.com",
+    "favoriteColor": "pink",
+    "birthday": "01/29/2000"
+}
+
